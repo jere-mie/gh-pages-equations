@@ -31,4 +31,4 @@ Basically, all you need to do is create a `_includes/head-custom.html` file with
 ## Rendering Equations
 
 Equations are rendered by putting them in between \$ symbols.  
-For example, \$\int_a^b{x^2}\$  
+For example, `$\int_a^b{x^2}$` 
