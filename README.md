@@ -1,6 +1,6 @@
 # gh-pages-equations
 
-Instructions on how to get equations to render on GitHub pages
+Instructions on how to get latex equations to render on GitHub pages
 
 ## Set up
 
@@ -28,7 +28,12 @@ Basically, all you need to do is create a `_includes/head-custom.html` file with
 </script>
 ```
 
-## Rendering Equations
+## Rendering Latex Equations
 
-Equations are rendered by putting them in between \$ symbols.  
-For example, `$\int_a^b{x^2}$` 
+Latex quations are rendered by putting them in between \$ symbols.  
+For example, `$\int_a^b{x^2}$` renders to $\int_a^b{x^2}$  
+
+### Is the above equation not rendering for you?
+
+Congratulations! You've found one of the quirks with this solution. Equations will only render on **GitHub Pages**, not on the actual GitHub website. If you only care about GitHub pages anyways (like me) this shouldn't be a big deal. However, if you were hoping to get it to work on the GitHub website, this won't work for you.  
+Want to see what it looks like rendered anyway? Go to the GitHub pages version of this site [here](https://jere-mie.github.io/gh-pages-equations/)
